@@ -31,7 +31,7 @@ Typical union injection
     localhost> help
     ...
 
-Blind SQL injections
+Blind (time based) SQL injections
 --------------------
 
     $ python proto2.py --url http://127.0.0.1/www.tmp/sql.php?i=%s --no-proxy --proxy "" --mode blind
